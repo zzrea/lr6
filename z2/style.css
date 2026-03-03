@@ -1,0 +1,82 @@
+body {
+    font-family: Arial;
+    padding: 30px;
+    background: #f5f5f5;
+}
+
+.vertical {
+    width: 280px;
+    background: white;
+}
+
+.item {
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.mlink {
+    display: block;
+    padding: 15px 20px;
+    background: rgb(223, 223, 223);
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.mlink:hover {
+    background: rgb(255, 223, 163);
+}
+
+.drop {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 250px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: none; 
+    z-index: 10;
+}
+
+.item:hover .drop {
+    display: block;
+}
+
+.dropl {
+    display: block;
+    padding: 12px 20px;
+    background: white;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+    transition: 0.3s;
+}
+
+.dropl:hover {
+    background: rgb(255, 223, 163);
+    padding-left: 25px;
+}
+
+.item1 {
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.drop1 {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 250px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: none; 
+    z-index: 10;
+}
+
+.item1:hover .drop1 {
+    display: block;
+}
